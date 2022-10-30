@@ -1,0 +1,29 @@
+{
+  "name": "crud-product-nodejs",
+  "version": "1.0.0",
+  "description": "CRUD product basic",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ledinhsan2001/CRUD-Product-Nodejs.git"
+  },
+  "author": "Le Dinh San",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ledinhsan2001/CRUD-Product-Nodejs/issues"
+  },
+  "homepage": "https://github.com/ledinhsan2001/CRUD-Product-Nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

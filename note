@@ -1,0 +1,3 @@
+mkdir server => cd server => mkdir controllers, models, routes
+npm i body-parser morgan mongoose --save
+npm i nodemon --save-dev
